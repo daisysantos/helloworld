@@ -19,4 +19,20 @@ public class HelloController {
 		return "<b>Hello!<br />Daisy</b>!";
 	
 	}	
+		
+	@GetMapping("/bsm")
+	public String bsm() {
+		return "<b>Persistencia!<br />Gestão de tempo</b>!<br />Comunicação</b>!<br />Mentalidade de Crescimento</b>!<br />Orientação ao futuro</b>!<br />Comunicação não agressiva</b>!";	
+	}	
+	
+	@GetMapping("/objetivo")
+	public String objetivo() {
+		return "Eu estou trabalhando a persistência… mais afinal o que é persistência?\r\n"
+				+ "Persistência é não deixar qualquer situação desanimar ou me  desviar das minhas metas. \r\n"
+				+ "Não permitir que os fracassos abalem minha autoestima ou enfraqueçam minha coragem.\r\n"
+				+ "Estou tentando absorver o máximo do programa e ainda consegui cuidar das coisas além do bootcamp ... é um malabarismo com os pratos, mas já consigo ver bons resultados.\r\n";
+				 	
+		
+		
+	}	
 }
